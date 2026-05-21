@@ -10,8 +10,8 @@ import {
 
 import appCss from "../styles.css?url";
 import favicon from "../assets/icon3.png";
+import previewImage from "../assets/preview.png";
 import { useGTM } from "../hooks/use-gtm";
-
 
 function NotFoundComponent() {
   return (
@@ -86,8 +86,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "Jessica Schneider — Psicóloga · Psicoterapia em Angra dos Reis e Online" },
       { property: "og:description", content: "Psicóloga CRP 05/86249. Atendimento presencial em Angra dos Reis e online para todo o Brasil. Terapia Cognitivo-Comportamental com acolhimento e ciência." },
       { name: "twitter:description", content: "Psicóloga CRP 05/86249. Atendimento presencial em Angra dos Reis e online para todo o Brasil. Terapia Cognitivo-Comportamental com acolhimento e ciência." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fa304a0c-cf8d-48e2-afc4-69fead99adf8/id-preview-76f17e57--265d2543-0b1a-41f2-a0a2-893667da0563.lovable.app-1779218058941.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fa304a0c-cf8d-48e2-afc4-69fead99adf8/id-preview-76f17e57--265d2543-0b1a-41f2-a0a2-893667da0563.lovable.app-1779218058941.png" },
+      { property: "og:image", content: previewImage },
+      { name: "twitter:image", content: previewImage },
     ],
     links: [
       {
