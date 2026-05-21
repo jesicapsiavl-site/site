@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { WhatsAppButton } from "./WhatsAppButton";
 import { SITE } from "@/lib/site";
-import logo from "@/assets/LOGO2.png";
+import logo from "@/assets/LOGO3.png";
 
 const nav = [
   { to: "/", label: "Início" },
