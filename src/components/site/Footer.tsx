@@ -57,7 +57,12 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-start justify-between gap-3 border-t border-border/70 pt-6 text-xs text-muted-foreground md:flex-row md:items-center">
-          <p>© {new Date().getFullYear()} Jessica Schneider · Todos os direitos reservados</p>
+          <p>
+            © {new Date().getFullYear()} Feito por{" "}
+            <a href="https://avelonmed.com.br/" target="_blank" rel="noopener noreferrer" className="hover:text-cocoa">
+              AvelonMed
+            </a>
+          </p>
           <p>CRP 05/86249 · Psicologia baseada em evidências</p>
         </div>
       </div>
