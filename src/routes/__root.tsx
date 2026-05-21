@@ -8,6 +8,7 @@ import {
   Scripts,
 } from "@tanstack/react-router";
 
+
 import appCss from "../styles.css?url";
 import favicon from "../assets/icon3.png";
 import previewImage from "../assets/preview.png";
