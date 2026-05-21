@@ -4,6 +4,7 @@ import { WhatsAppButton } from "./WhatsAppButton";
 import { SITE } from "@/lib/site";
 import logo from "@/assets/LOGO3.png";
 
+
 const nav = [
   { to: "/", label: "Início" },
   { to: "/sobre", label: "Sobre" },
