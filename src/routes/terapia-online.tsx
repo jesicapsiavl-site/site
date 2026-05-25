@@ -56,7 +56,7 @@ function TerapiaOnlinePage() {
               href="#beneficios"
               className="inline-flex items-center text-sm tracking-wide text-primary underline-offset-4 hover:underline"
             >
-              Como funciona →
+              Como tfunciona →
             </a>
           </div>
         </div>
