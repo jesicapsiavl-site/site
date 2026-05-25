@@ -5,6 +5,7 @@ import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import { SITE } from "@/lib/site";
 import onlineImg from "@/assets/jessica-online.jpg";
 
+
 export const Route = createFileRoute("/terapia-online")({
   head: () => ({
     meta: [
